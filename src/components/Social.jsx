@@ -48,26 +48,30 @@ export default function Social() {
           <animated.div style={fadeInContactDiv2} className="flex flex-col items-center bg-white">
             <img src={gmail} className='w-8' />
             <div className="mt-4 text-center">
-              <h4 className="text-gray-800 text-base font-bold">Our mail</h4>
-              <p className="text-sm text-gray-500 mt-2">Casaclean420@gmail.com</p>
+              <h4 className="text-gray-800 text-base font-bold">Mail</h4>
+              <p className="text-sm text-gray-500 mt-2">mariem.ouni66@gmail.com</p>
             </div>
           </animated.div>
 
+            <a href='https://www.facebook.com/profile.php?id=100020632549786'>
           <animated.div style={fadeInContactDiv3} className="flex flex-col items-center bg-white">
             <img src={face} className='w-8' />
+            
             <div className="mt-4 text-center">
               <h4 className="text-gray-800 text-base font-bold">Facebook</h4>
-              <p className="text-sm text-gray-500 mt-2">Clean casa</p>
+              <p className="text-sm text-gray-500 mt-2">Maryem H'i</p>
             </div>
           </animated.div>
-
+            </a>
+          <a href='https://www.instagram.com/maryemm_hi/?hl=fr'> 
           <animated.div style={fadeInContactDiv4} className="flex flex-col items-center bg-white">
             <img src={insta} className='w-8' /> 
             <div className="mt-4 text-center">
               <h4 className="text-gray-800 text-base font-bold">Instagram</h4>
-              <p className="text-sm text-gray-500 mt-2">casa cleaned</p>
+              <p className="text-sm text-gray-500 mt-2">Maryem H'i</p>
             </div>
           </animated.div>
+          </a>
 
         </div>
 

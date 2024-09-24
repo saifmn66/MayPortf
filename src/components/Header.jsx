@@ -1,5 +1,5 @@
 import { useSpring, useTrail, animated } from "@react-spring/web";
-import bgcov from "../img/blob-haikei.svg";
+import bgcov from "../img/blob-haikei2.png";
 import { NavLink } from "react-router-dom";
 
 export const Header = () => {
@@ -140,8 +140,9 @@ Passionate graphic designer with expertise in visual communication, typography, 
         style={{
           ...bgAnimation,
           backgroundImage: `url(${bgcov})`,
+          backgroundRepeat: "no-repeat",
         }}
-        className="inset-y-0 mt-20 right-0 w-full max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0 min-h-[50vh]"
+        className="inset-y-0 right-20 top-6 w-full  max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-2/5 lg:max-w-full lg:absolute xl:px-0 min-h-[50vh]"
       ></animated.div>
     </div>
   );
