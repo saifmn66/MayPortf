@@ -43,7 +43,7 @@ export function Gallerie() {
         <div className=" grid gap-4">
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c11}
               alt="gallery-photo"
               onClick={() => openPopup(c11)}
@@ -52,7 +52,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
               src={c12}
               alt="gallery-photo"
               onClick={() => openPopup(c12)}
@@ -61,7 +61,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c13}
               alt="gallery-photo"
               onClick={() => openPopup(c13)}
@@ -70,7 +70,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c14}
               alt="gallery-photo"
               onClick={() => openPopup(c14)}
@@ -79,7 +79,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c15}
               alt="gallery-photo"
               onClick={() => openPopup(c15)}
@@ -88,7 +88,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c16}
               alt="gallery-photo"
               onClick={() => openPopup(c16)}
@@ -97,7 +97,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c17}
               alt="gallery-photo"
               onClick={() => openPopup(c17)}
@@ -108,7 +108,7 @@ export function Gallerie() {
         <div className="grid gap-4">
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c21}
               alt="gallery-photo"
               onClick={() => openPopup(c21)}
@@ -117,7 +117,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c22}
               alt="gallery-photo"
               onClick={() => openPopup(c22)}
@@ -127,7 +127,7 @@ export function Gallerie() {
           
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c24}
               alt="gallery-photo"
               onClick={() => openPopup(c24)}
@@ -136,7 +136,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c25}
               alt="gallery-photo"
               onClick={() => openPopup(c25)}
@@ -145,7 +145,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c26}
               alt="gallery-photo"
               onClick={() => openPopup(c26)}
@@ -154,7 +154,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c27}
               alt="gallery-photo"
               onClick={() => openPopup(c27)}
@@ -163,7 +163,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c28}
               alt="gallery-photo"
               onClick={() => openPopup(c28)}
@@ -172,7 +172,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c29}
               alt="gallery-photo"
               onClick={() => openPopup(c29)}
@@ -181,7 +181,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c210}
               alt="gallery-photo"
               onClick={() => openPopup(c210)}
@@ -193,7 +193,7 @@ export function Gallerie() {
         <div className="grid gap-4">
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               
               src={c31}
               alt="gallery-photo"
@@ -203,7 +203,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c32}
               alt="gallery-photo"
               onClick={() => openPopup(c32)}
@@ -212,7 +212,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c37}
               alt="gallery-photo"
               onClick={() => openPopup(c37)}
@@ -221,7 +221,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c33}
               alt="gallery-photo"
               onClick={() => openPopup(c33)}
@@ -230,7 +230,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c34}
               alt="gallery-photo"
               onClick={() => openPopup(c34)}
@@ -239,7 +239,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c38}
               alt="gallery-photo"
               onClick={() => openPopup(c38)}
@@ -248,7 +248,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c35}
               alt="gallery-photo"
               onClick={() => openPopup(c35)}
@@ -257,7 +257,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c36}
               alt="gallery-photo"
               onClick={() => openPopup(c36)}
@@ -268,7 +268,7 @@ export function Gallerie() {
         <div className="flex flex-wrap gap-4">
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c11}
               alt="gallery-photo"
               onClick={() => openPopup(c11)}
@@ -277,7 +277,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
               src={c12}
               alt="gallery-photo"
               onClick={() => openPopup(c12)}
@@ -286,7 +286,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c13}
               alt="gallery-photo"
               onClick={() => openPopup(c13)}
@@ -295,7 +295,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c14}
               alt="gallery-photo"
               onClick={() => openPopup(c14)}
@@ -304,7 +304,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c15}
               alt="gallery-photo"
               onClick={() => openPopup(c15)}
@@ -313,7 +313,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c16}
               alt="gallery-photo"
               onClick={() => openPopup(c16)}
@@ -322,7 +322,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c17}
               alt="gallery-photo"
               onClick={() => openPopup(c17)}
@@ -336,7 +336,7 @@ export function Gallerie() {
         <div className="grid gap-4">
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c11}
               alt="gallery-photo"
               onClick={() => openPopup(c11)}
@@ -345,7 +345,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
               src={c12}
               alt="gallery-photo"
               onClick={() => openPopup(c12)}
@@ -354,7 +354,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c13}
               alt="gallery-photo"
               onClick={() => openPopup(c13)}
@@ -363,7 +363,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c14}
               alt="gallery-photo"
               onClick={() => openPopup(c14)}
@@ -372,7 +372,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c15}
               alt="gallery-photo"
               onClick={() => openPopup(c15)}
@@ -381,7 +381,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c16}
               alt="gallery-photo"
               onClick={() => openPopup(c16)}
@@ -390,7 +390,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c17}
               alt="gallery-photo"
               onClick={() => openPopup(c17)}
@@ -401,7 +401,7 @@ export function Gallerie() {
         <div className="grid gap-4">
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c21}
               alt="gallery-photo"
               onClick={() => openPopup(c21)}
@@ -410,7 +410,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c22}
               alt="gallery-photo"
               onClick={() => openPopup(c22)}
@@ -420,7 +420,7 @@ export function Gallerie() {
           
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c24}
               alt="gallery-photo"
               onClick={() => openPopup(c24)}
@@ -429,7 +429,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c25}
               alt="gallery-photo"
               onClick={() => openPopup(c25)}
@@ -438,7 +438,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c26}
               alt="gallery-photo"
               onClick={() => openPopup(c26)}
@@ -447,7 +447,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c27}
               alt="gallery-photo"
               onClick={() => openPopup(c27)}
@@ -456,7 +456,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c28}
               alt="gallery-photo"
               onClick={() => openPopup(c28)}
@@ -465,7 +465,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c29}
               alt="gallery-photo"
               onClick={() => openPopup(c29)}
@@ -474,7 +474,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c210}
               alt="gallery-photo"
               onClick={() => openPopup(c210)}
@@ -486,7 +486,7 @@ export function Gallerie() {
         <div className="grid gap-4">
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               
               src={c31}
               alt="gallery-photo"
@@ -496,7 +496,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c32}
               alt="gallery-photo"
               onClick={() => openPopup(c32)}
@@ -505,7 +505,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c37}
               alt="gallery-photo"
               onClick={() => openPopup(c37)}
@@ -514,7 +514,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c33}
               alt="gallery-photo"
               onClick={() => openPopup(c33)}
@@ -523,7 +523,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c34}
               alt="gallery-photo"
               onClick={() => openPopup(c34)}
@@ -532,7 +532,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c38}
               alt="gallery-photo"
               onClick={() => openPopup(c38)}
@@ -541,7 +541,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c35}
               alt="gallery-photo"
               onClick={() => openPopup(c35)}
@@ -550,7 +550,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c36}
               alt="gallery-photo"
               onClick={() => openPopup(c36)}
@@ -561,7 +561,7 @@ export function Gallerie() {
         <div className="grid gap-4">
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c11}
               alt="gallery-photo"
               onClick={() => openPopup(c11)}
@@ -570,7 +570,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
               src={c12}
               alt="gallery-photo"
               onClick={() => openPopup(c12)}
@@ -579,7 +579,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c13}
               alt="gallery-photo"
               onClick={() => openPopup(c13)}
@@ -588,7 +588,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c14}
               alt="gallery-photo"
               onClick={() => openPopup(c14)}
@@ -597,7 +597,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c15}
               alt="gallery-photo"
               onClick={() => openPopup(c15)}
@@ -606,7 +606,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c16}
               alt="gallery-photo"
               onClick={() => openPopup(c16)}
@@ -615,7 +615,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c17}
               alt="gallery-photo"
               onClick={() => openPopup(c17)}
@@ -630,7 +630,7 @@ export function Gallerie() {
         <div className="grid gap-4">
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c11}
               alt="gallery-photo"
               onClick={() => openPopup(c11)}
@@ -639,7 +639,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
               src={c12}
               alt="gallery-photo"
               onClick={() => openPopup(c12)}
@@ -650,7 +650,7 @@ export function Gallerie() {
           
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c15}
               alt="gallery-photo"
               onClick={() => openPopup(c15)}
@@ -660,7 +660,7 @@ export function Gallerie() {
           
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c17}
               alt="gallery-photo"
               onClick={() => openPopup(c17)}
@@ -671,7 +671,7 @@ export function Gallerie() {
         <div className="grid gap-4">
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c21}
               alt="gallery-photo"
               onClick={() => openPopup(c21)}
@@ -680,7 +680,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c22}
               alt="gallery-photo"
               onClick={() => openPopup(c22)}
@@ -691,7 +691,7 @@ export function Gallerie() {
           
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c25}
               alt="gallery-photo"
               onClick={() => openPopup(c25)}
@@ -702,7 +702,7 @@ export function Gallerie() {
           
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c28}
               alt="gallery-photo"
               onClick={() => openPopup(c28)}
@@ -711,7 +711,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c29}
               alt="gallery-photo"
               onClick={() => openPopup(c29)}
@@ -720,7 +720,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c210}
               alt="gallery-photo"
               onClick={() => openPopup(c210)}
@@ -732,7 +732,7 @@ export function Gallerie() {
         <div className="grid gap-4">
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               
               src={c31}
               alt="gallery-photo"
@@ -743,7 +743,7 @@ export function Gallerie() {
           
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c33}
               alt="gallery-photo"
               onClick={() => openPopup(c33)}
@@ -752,7 +752,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c34}
               alt="gallery-photo"
               onClick={() => openPopup(c34)}
@@ -761,7 +761,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c38}
               alt="gallery-photo"
               onClick={() => openPopup(c38)}
@@ -770,7 +770,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c35}
               alt="gallery-photo"
               onClick={() => openPopup(c35)}
@@ -782,7 +782,7 @@ export function Gallerie() {
         <div className="grid gap-4">
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c11}
               alt="gallery-photo"
               onClick={() => openPopup(c11)}
@@ -791,7 +791,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
               src={c12}
               alt="gallery-photo"
               onClick={() => openPopup(c12)}
@@ -802,7 +802,7 @@ export function Gallerie() {
           
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c15}
               alt="gallery-photo"
               onClick={() => openPopup(c15)}
@@ -812,7 +812,7 @@ export function Gallerie() {
           
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c17}
               alt="gallery-photo"
               onClick={() => openPopup(c17)}
@@ -828,7 +828,7 @@ export function Gallerie() {
         <div className="grid gap-4">
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c24}
               alt="gallery-photo"
               onClick={() => openPopup(c24)}
@@ -839,7 +839,7 @@ export function Gallerie() {
         <div className="grid gap-4">
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c16}
               alt="gallery-photo"
               onClick={() => openPopup(c16)}
@@ -848,7 +848,7 @@ export function Gallerie() {
           </div>
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c32}
               alt="gallery-photo"
               onClick={() => openPopup(c32)}
@@ -860,7 +860,7 @@ export function Gallerie() {
         <div className="grid gap-4">
           <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c26}
               alt="gallery-photo"
               onClick={() => openPopup(c26)}
@@ -872,7 +872,7 @@ export function Gallerie() {
         <div className="grid gap-4">
         <div className="relative max-w-xs shadow-xl rounded-lg rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c27}
               alt="gallery-photo"
               onClick={() => openPopup(c27)}
@@ -888,7 +888,7 @@ export function Gallerie() {
         
         <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
           <img 
-            className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+            className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
             src={c13}
             alt="gallery-photo"
             onClick={() => openPopup(c13)}
@@ -900,7 +900,7 @@ export function Gallerie() {
       <div className="grid gap-4">
       <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
           <img 
-            className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+            className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
             src={c36}
             alt="gallery-photo"
             onClick={() => openPopup(c36)}
@@ -913,7 +913,7 @@ export function Gallerie() {
         
         <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
           <img 
-            className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+            className="h-auto  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
             src={c37}
             alt="gallery-photo"
             onClick={() => openPopup(c37)}
