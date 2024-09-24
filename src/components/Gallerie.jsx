@@ -40,17 +40,17 @@ export function Gallerie() {
       setSelectedImage(null);
   };
     const [gal , setgal] = useState(<>
-        <div className="grid gap-4">
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+        <div className=" grid gap-4">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
-              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              className="h-full rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c11}
               alt="gallery-photo"
               onClick={() => openPopup(c11)}
             />
             
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
               src={c12}
@@ -59,7 +59,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c13}
@@ -68,7 +68,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c14}
@@ -77,7 +77,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c15}
@@ -86,7 +86,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c16}
@@ -95,7 +95,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c17}
@@ -106,7 +106,7 @@ export function Gallerie() {
           </div>
         </div>
         <div className="grid gap-4">
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c21}
@@ -115,7 +115,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c22}
@@ -125,7 +125,7 @@ export function Gallerie() {
             />
           </div>
           
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c24}
@@ -134,7 +134,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c25}
@@ -143,7 +143,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c26}
@@ -152,7 +152,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c27}
@@ -161,7 +161,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c28}
@@ -170,7 +170,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c29}
@@ -179,7 +179,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c210}
@@ -191,7 +191,7 @@ export function Gallerie() {
         </div>
         
         <div className="grid gap-4">
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               
@@ -201,7 +201,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c32}
@@ -210,7 +210,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c37}
@@ -219,7 +219,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c33}
@@ -228,7 +228,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c34}
@@ -237,7 +237,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c38}
@@ -246,7 +246,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c35}
@@ -255,12 +255,77 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c36}
               alt="gallery-photo"
               onClick={() => openPopup(c36)}
+
+            />
+          </div>
+        </div>
+        <div className="flex flex-wrap gap-4">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              src={c11}
+              alt="gallery-photo"
+              onClick={() => openPopup(c11)}
+            />
+            
+          </div>
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
+              src={c12}
+              alt="gallery-photo"
+              onClick={() => openPopup(c12)}
+
+            />
+          </div>
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              src={c13}
+              alt="gallery-photo"
+              onClick={() => openPopup(c13)}
+
+            />
+          </div>
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              src={c14}
+              alt="gallery-photo"
+              onClick={() => openPopup(c14)}
+
+            />
+          </div>
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              src={c15}
+              alt="gallery-photo"
+              onClick={() => openPopup(c15)}
+
+            />
+          </div>
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              src={c16}
+              alt="gallery-photo"
+              onClick={() => openPopup(c16)}
+
+            />
+          </div>
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              src={c17}
+              alt="gallery-photo"
+              onClick={() => openPopup(c17)}
 
             />
           </div>
@@ -269,7 +334,7 @@ export function Gallerie() {
     const images = (
         <>
         <div className="grid gap-4">
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c11}
@@ -278,7 +343,7 @@ export function Gallerie() {
             />
             
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
               src={c12}
@@ -287,7 +352,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c13}
@@ -296,7 +361,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c14}
@@ -305,7 +370,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c15}
@@ -314,7 +379,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c16}
@@ -323,7 +388,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c17}
@@ -334,7 +399,7 @@ export function Gallerie() {
           </div>
         </div>
         <div className="grid gap-4">
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c21}
@@ -343,7 +408,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c22}
@@ -353,7 +418,7 @@ export function Gallerie() {
             />
           </div>
           
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c24}
@@ -362,7 +427,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c25}
@@ -371,7 +436,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c26}
@@ -380,7 +445,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c27}
@@ -389,7 +454,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c28}
@@ -398,7 +463,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c29}
@@ -407,7 +472,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c210}
@@ -419,7 +484,7 @@ export function Gallerie() {
         </div>
         
         <div className="grid gap-4">
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               
@@ -429,7 +494,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c32}
@@ -438,7 +503,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c37}
@@ -447,7 +512,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c33}
@@ -456,7 +521,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c34}
@@ -465,7 +530,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c38}
@@ -474,7 +539,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c35}
@@ -483,12 +548,77 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c36}
               alt="gallery-photo"
               onClick={() => openPopup(c36)}
+
+            />
+          </div>
+        </div>
+        <div className="grid gap-4">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              src={c11}
+              alt="gallery-photo"
+              onClick={() => openPopup(c11)}
+            />
+            
+          </div>
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
+              src={c12}
+              alt="gallery-photo"
+              onClick={() => openPopup(c12)}
+
+            />
+          </div>
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              src={c13}
+              alt="gallery-photo"
+              onClick={() => openPopup(c13)}
+
+            />
+          </div>
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              src={c14}
+              alt="gallery-photo"
+              onClick={() => openPopup(c14)}
+
+            />
+          </div>
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              src={c15}
+              alt="gallery-photo"
+              onClick={() => openPopup(c15)}
+
+            />
+          </div>
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              src={c16}
+              alt="gallery-photo"
+              onClick={() => openPopup(c16)}
+
+            />
+          </div>
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              src={c17}
+              alt="gallery-photo"
+              onClick={() => openPopup(c17)}
 
             />
           </div>
@@ -498,7 +628,7 @@ export function Gallerie() {
     const categ2 = (
         <>
         <div className="grid gap-4">
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c11}
@@ -507,7 +637,7 @@ export function Gallerie() {
             />
             
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
               src={c12}
@@ -518,7 +648,7 @@ export function Gallerie() {
           </div>
           
           
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c15}
@@ -528,7 +658,7 @@ export function Gallerie() {
             />
           </div>
           
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c17}
@@ -539,7 +669,7 @@ export function Gallerie() {
           </div>
         </div>
         <div className="grid gap-4">
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c21}
@@ -548,7 +678,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c22}
@@ -559,7 +689,7 @@ export function Gallerie() {
           </div>
           
           
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c25}
@@ -570,7 +700,7 @@ export function Gallerie() {
           </div>
           
           
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c28}
@@ -579,7 +709,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c29}
@@ -588,7 +718,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c210}
@@ -600,7 +730,7 @@ export function Gallerie() {
         </div>
         
         <div className="grid gap-4">
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               
@@ -611,7 +741,7 @@ export function Gallerie() {
             />
           </div>
           
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c33}
@@ -620,7 +750,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c34}
@@ -629,7 +759,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c38}
@@ -638,7 +768,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c35}
@@ -649,13 +779,54 @@ export function Gallerie() {
           </div>
           
         </div>
+        <div className="grid gap-4">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              src={c11}
+              alt="gallery-photo"
+              onClick={() => openPopup(c11)}
+            />
+            
+          </div>
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center "
+              src={c12}
+              alt="gallery-photo"
+              onClick={() => openPopup(c12)}
+
+            />
+          </div>
+          
+          
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              src={c15}
+              alt="gallery-photo"
+              onClick={() => openPopup(c15)}
+
+            />
+          </div>
+          
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
+            <img 
+              className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
+              src={c17}
+              alt="gallery-photo"
+              onClick={() => openPopup(c17)}
+
+            />
+          </div>
+        </div>
         </>
     )
 
     const categ3 = (
         <>
         <div className="grid gap-4">
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c24}
@@ -666,7 +837,7 @@ export function Gallerie() {
           </div>
         </div>
         <div className="grid gap-4">
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c16}
@@ -675,7 +846,7 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c32}
@@ -687,9 +858,7 @@ export function Gallerie() {
         </div>
         
         <div className="grid gap-4">
-          
-          
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c26}
@@ -698,7 +867,10 @@ export function Gallerie() {
 
             />
           </div>
-          <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          
+        </div>
+        <div className="grid gap-4">
+        <div className="relative max-w-xs shadow-xl rounded-lg rounded-lg overflow-hidden bg-cover bg-no-repeat">
             <img 
               className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
               src={c27}
@@ -714,7 +886,7 @@ export function Gallerie() {
       <>
       <div className="grid gap-4">
         
-        <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+        <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
           <img 
             className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
             src={c13}
@@ -726,7 +898,7 @@ export function Gallerie() {
         
       </div>
       <div className="grid gap-4">
-      <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+      <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
           <img 
             className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
             src={c36}
@@ -739,7 +911,7 @@ export function Gallerie() {
       
       <div className="grid gap-4">
         
-        <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+        <div className="relative max-w-xs shadow-xl rounded-lg overflow-hidden bg-cover bg-no-repeat">
           <img 
             className="h-full  rounded-lg object-cover max-w-xs transition duration-300 ease-in-out hover:scale-110 object-center"
             src={c37}
@@ -787,7 +959,7 @@ export function Gallerie() {
           </button>
         </div>
     
-        <div className="grid grid-cols-2 gap-4 sm:max-w-[70vw] max-w-[90vw] mx-auto md:grid-cols-3">
+        <div className="grid grid-cols-2 gap-4 sm:max-w-[70vw] max-w-[90vw] mx-auto md:grid-cols-4">
           {gal}
         </div>
     

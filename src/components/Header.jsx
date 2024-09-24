@@ -1,5 +1,6 @@
 import { useSpring, useTrail, animated } from "@react-spring/web";
 import bgcov from "../img/blob-haikei.svg";
+import { NavLink } from "react-router-dom";
 
 export const Header = () => {
   const textAnimation = useSpring({
@@ -47,11 +48,11 @@ Passionate graphic designer with expertise in visual communication, typography, 
             
           </div>
           <div className="flex flex-col items-center md:flex-row">
-            <animated.a
-              href="#_"
+            <animated.div
               style={buttonAnimation[0]}
               className="relative sm:mr-8 mr-0 sm:mb-0 mb-4 px-10 py-3 font-medium text-white transition duration-300 bg-purple-500 rounded-md hover:bg-purple-600 ease"
             >
+              <NavLink to="/gallerie">
               <span className="absolute bottom-0 left-0 h-full -ml-2">
                 <svg
                   viewBox="0 0 487 487"
@@ -80,13 +81,18 @@ Passionate graphic designer with expertise in visual communication, typography, 
                   ></path>
                 </svg>
               </span>
-              <span className="relative">Gallerie</span>
-            </animated.a>
-            <animated.a
-              href="#_"
+              <span className="relative">
+                
+                  Gallerie
+                
+              </span>
+              </NavLink>
+            </animated.div>
+            <animated.div
               style={buttonAnimation[1]}
               className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-indigo-600 transition-all duration-500 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group"
             >
+              <NavLink to="/contact">
               <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-500 ease-in-out bg-purple-500 group-hover:h-full"></span>
               <span className="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
                 <svg
@@ -121,9 +127,12 @@ Passionate graphic designer with expertise in visual communication, typography, 
                 </svg>
               </span>
               <span className="relative w-full text-left transition-colors duration-700 ease-in-out group-hover:text-white">
+                
                 Contact
+                
               </span>
-            </animated.a>
+              </NavLink>
+            </animated.div>
           </div>
         </animated.div>
       </div>

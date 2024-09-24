@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import contactcov from "../img/conatctcover.png"
+import contactcov from "../img/conatctcover.png";
+import { Toaster, toast } from 'react-hot-toast'; 
 
 export default function Contact() {
   const form = useRef();
@@ -8,20 +9,30 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    const loadingToast = toast.loading('Sending...');
+
     emailjs
       .sendForm('service_nzycnxx', 'template_hrkw2zp', form.current, 'OkN87qGejvsZ8b3Bd')
       .then(
         () => {
+          toast.dismiss(loadingToast);
           console.log('SUCCESS!');
+          toast.success('Successfully sent!');
+          form.current.reset();
         },
         (error) => {
+          toast.dismiss(loadingToast);
           console.log('FAILED...', error.text);
-        },
+          toast.error('Failed to send the message.'); 
+        }
       );
   };
 
   return (
     <div className="mt-24">
+      
+      <Toaster />
+
       <div className="font-[sans-serif] max-w-6xl mx-auto relative bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-3xl overflow-hidden mt-4">
         <div className="absolute -bottom-6 -left-6 w-20 h-20 rounded-full bg-[#EEC1EC]"></div>
         <div className="absolute -top-6 -right-6 w-20 h-20 rounded-full bg-[#EEC1EC]"></div>
@@ -60,7 +71,7 @@ export default function Contact() {
               ></textarea>
 
               <button
-                type="submit"  // Change type to 'submit'
+                type="submit"
                 className="text-white w-full relative bg-[#f19eed] hover:bg-[#ff8cf9] rounded-md text-sm px-6 py-3 !mt-6"
               >
                 <svg
