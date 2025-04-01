@@ -40,8 +40,8 @@ export default function Social() {
           <animated.div style={fadeInContactDiv1} className="flex flex-col items-center bg-white">
             <img src={whats} className='w-8' />
             <div className="mt-4 text-center">
-              <h4 className="text-gray-800 text-base font-bold">Call Us</h4>
-              <p className="text-sm text-gray-500 mt-2"> +40 791 536 076</p>
+              <h4 className="text-gray-800 text-base font-bold">WhatsApp</h4>
+              <p className="text-sm text-gray-500 mt-2"> +216 29 541 577</p>
             </div>
           </animated.div>
 

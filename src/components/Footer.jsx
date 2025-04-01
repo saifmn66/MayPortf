@@ -50,7 +50,7 @@ export const Footer = () => {
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
             <div>
               <p className="font-semibold tracking-wide text-teal-accent-400">
-                Category
+                Portfolio
               </p>
               <ul className="mt-2 space-y-2">
                 <li>
@@ -58,7 +58,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
-                    News
+                    UI/UX Design
                   </a>
                 </li>
                 <li>
@@ -66,7 +66,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
-                    World
+                    Graphic Design
                   </a>
                 </li>
                 <li>
@@ -74,7 +74,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
-                    Games
+                    Branding
                   </a>
                 </li>
                 <li>
@@ -82,14 +82,14 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
-                    References
+                    All Projects
                   </a>
                 </li>
               </ul>
             </div>
             <div>
               <p className="font-semibold tracking-wide text-teal-accent-400">
-                Cherry
+                Services
               </p>
               <ul className="mt-2 space-y-2">
                 <li>
@@ -97,7 +97,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
-                    Web
+                    Logo Design
                   </a>
                 </li>
                 <li>
@@ -105,7 +105,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
-                    eCommerce
+                    Web Design
                   </a>
                 </li>
                 <li>
@@ -113,7 +113,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
-                    Business
+                    Print Design
                   </a>
                 </li>
                 <li>
@@ -121,22 +121,14 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
-                    Entertainment
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                  >
-                    Portfolio
+                    UI/UX Consulting
                   </a>
                 </li>
               </ul>
             </div>
             <div>
               <p className="font-semibold tracking-wide text-teal-accent-400">
-                Apples
+                Resources
               </p>
               <ul className="mt-2 space-y-2">
                 <li>
@@ -144,7 +136,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
-                    Media
+                    Design Blog
                   </a>
                 </li>
                 <li>
@@ -152,7 +144,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
-                    Brochure
+                    Free Templates
                   </a>
                 </li>
                 <li>
@@ -160,7 +152,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
-                    Nonprofit
+                    Design Tips
                   </a>
                 </li>
                 <li>
@@ -168,22 +160,14 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
-                    Educational
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                  >
-                    Projects
+                    Color Palettes
                   </a>
                 </li>
               </ul>
             </div>
             <div>
               <p className="font-semibold tracking-wide text-teal-accent-400">
-                Business
+                Contact
               </p>
               <ul className="mt-2 space-y-2">
                 <li>
@@ -191,7 +175,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
-                    Infopreneur
+                    Get a Quote
                   </a>
                 </li>
                 <li>
@@ -199,7 +183,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
-                    Personal
+                    Collaboration
                   </a>
                 </li>
                 <li>
@@ -207,7 +191,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
-                    Wiki
+                    Social Media
                   </a>
                 </li>
                 <li>
@@ -215,7 +199,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
-                    Forum
+                    Newsletter
                   </a>
                 </li>
               </ul>
@@ -250,6 +234,14 @@ export const Footer = () => {
             >
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
                 <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
+              </svg>
+            </a>
+            <a
+              href="/"
+              className="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
               </svg>
             </a>
           </div>
